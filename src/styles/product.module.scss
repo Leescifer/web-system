@@ -1,3 +1,10 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #064250cf;
+}
 .title{
     text-align: center;
   }
@@ -20,7 +27,9 @@
              object-fit: contain;
          }
          &:hover{
-             border:2px solid #000;
+             border:2px solid #88ccd5;
+             transform: scale(1.05);
+             transition: all 0.3s ease-in-out;
          }
      }
  }

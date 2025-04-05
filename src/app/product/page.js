@@ -7,7 +7,7 @@ export default async function ProductsPage(){
     const products = await request.json()
 
     return(
-        <div>
+        <div className={styles.container}>
             <h1 className=
             {styles.title}>
                 Display Products
